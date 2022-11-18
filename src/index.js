@@ -11,6 +11,10 @@ import First from './first';
 import Cards from './Components/Cards';
 import Manu from './Components/Manu';
 import Task from './Components/API';
+import Task1 from './Components/Task1';
+import Myuser from './Components/Myuser';
+import Mydata from './Components/Mydata';
+import Myform from './Components/Myform';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +22,7 @@ root.render(
   
     <BrowserRouter>
     
-    <Milan  />
+    <Myform/>
     
     </BrowserRouter> 
 

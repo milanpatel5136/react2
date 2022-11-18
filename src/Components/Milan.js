@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'
 
-export default function Milan(){
+export default function Milan() {
 
-const [data, setdata]= useState([])
+const [data,setdata]= useState ([])
 
-useEffect(()=> {
+useEffect (()=> {
     fetch('https://jsonplaceholder.typicode.com/photos')
-    .then(m => m.json)
-    .then(m =>{
+    .then (m => m.json())
+    .then (m => {
         setdata(m)
     })
 })
@@ -16,6 +16,7 @@ useEffect(()=> {
         <table>
         {
         data.map((element)=> {
+
               return(
               <tr>
               <td>{element.albumId}</td>
@@ -26,6 +27,7 @@ useEffect(()=> {
               </tr>
               )
         })       
+
         }
         </table>
 
