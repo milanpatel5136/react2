@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import reviews from './Pages/data'
+import './Card.css'
+
 
 
 export default function Cards() {
@@ -7,17 +9,22 @@ export default function Cards() {
   const [index,setindex] = useState(0)
   
   const pre = ()  => {
-     if (index<=1) {
-      setindex(index=1)
-     }
+    if (index <= 1 ) {
+     setindex  ( reviews. length - 1)
+    }
+    else 
+    {
+      setindex (index + 1)
+    }
   }
 
   const Next = () => {
-    if (index<=-1)
-     setindex(index=-1)
+    if (reviews. length - 1){
+    setindex (index - 1)
   }
-
-  return (
+  }
+    
+  return (  
     <div>
        <article class="review">
           <div class="img-container">

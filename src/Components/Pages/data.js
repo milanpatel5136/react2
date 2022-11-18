@@ -39,6 +39,6 @@ const reviews = [
   ];
   // select items
   
-  let index =0;
+  
 
-  export default reviews
+  export default reviews;
