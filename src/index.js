@@ -26,17 +26,19 @@ import FormTask from './Components/Pages/FormTask';
 import FormTask3 from './Components/Pages/FormTask3';
 import Taskform4 from './Components/Pages/Taskform4';
 import Props from './Components/Pages/Props';
+import Pform from './Components/Pages/Edit';
+import Grid from './Components/Pages/Grid';
+import Grid1 from './Components/Pages/Grid1';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <BrowserRouter>
     
-    <Props/>
     
-    </BrowserRouter> 
+     <Grid1/>    
+   // <Pform/>
 
 );
 
