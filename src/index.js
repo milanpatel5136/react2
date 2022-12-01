@@ -29,6 +29,7 @@ import Props from './Components/Pages/Props';
 import Pform from './Components/Pages/Edit';
 import Grid from './Components/Pages/Grid';
 import Grid1 from './Components/Pages/Grid1';
+import Rajan from './Components/Pages/Rajan';
 
 
 
@@ -37,8 +38,7 @@ root.render(
   
     
     
-     <Grid1/>    
-   // <Pform/>
+     <Rajan/>
 
 );
 
