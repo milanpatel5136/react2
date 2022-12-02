@@ -30,6 +30,7 @@ import Pform from './Components/Pages/Edit';
 import Grid from './Components/Pages/Grid';
 import Grid1 from './Components/Pages/Grid1';
 import Rajan from './Components/Pages/Rajan';
+import Apipost from './Components/Pages/Apipost';
 
 
 
@@ -38,7 +39,7 @@ root.render(
   
     
     
-     <Rajan/>
+     <Apipost/>
 
 );
 
