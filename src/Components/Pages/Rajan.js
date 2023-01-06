@@ -13,6 +13,7 @@ export default class Rajan extends Component {
         axios.get("https://jsonplaceholder.typicode.com/comments")
         .then (m => {
             this.setState({records: m.data});
+            
         })
     }
 
